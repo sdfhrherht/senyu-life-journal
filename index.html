@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#1d342a">
+    <meta name="description" content="嗨，我是高森雨。这里收藏一点小日常、一些小美好，还有突然冒出来的快乐。">
+    <title>高森雨 · 日子有趣一点</title>
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+    <link rel="preload" as="image" href="./assets/senyu-forest.jpg" fetchpriority="high">
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="./assets/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到主要内容</a>
+    <div class="reading-progress" aria-hidden="true"></div>
+    <svg class="svg-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <defs>
+        <symbol id="icon-arrow" viewBox="0 0 24 24"><path d="M4 12h15M13 5l7 7-7 7"/></symbol>
+        <symbol id="icon-spark" viewBox="0 0 60 60"><path d="M30 3c2 18 9 25 27 27-18 2-25 9-27 27C28 39 21 32 3 30 21 28 28 21 30 3Z"/></symbol>
+        <symbol id="icon-flower" viewBox="0 0 80 80"><path d="M40 23C18-9 0 20 23 40-9 62 20 80 40 57c22 32 40 3 17-17C89 18 60 0 40 23Z"/><circle cx="40" cy="40" r="7"/></symbol>
+      </defs>
+    </svg>
+
+    <header class="site-header" id="site-header">
+      <a class="brand" href="#home" aria-label="高森雨，回到首页">
+        <svg class="brand-flower" aria-hidden="true"><use href="#icon-flower"/></svg>
+        <span class="brand-name">高森雨<small>GAO SEN YU</small></span>
+      </a>
+      <nav class="main-nav" id="main-nav" aria-label="主导航">
+        <a href="#home" class="is-active" aria-current="location"><span>01</span> 首页</a>
+        <a href="#moments"><span>02</span> 生活切片</a>
+        <a href="#album"><span>03</span> 快乐相册</a>
+        <a href="#notes"><span>04</span> 碎碎念</a>
+        <a href="#about"><span>05</span> 关于我</a>
+      </nav>
+      <a class="header-invite" href="#album">来，随便逛逛 <svg aria-hidden="true"><use href="#icon-arrow"/></svg></a>
+      <button class="menu-toggle" type="button" aria-label="展开导航" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-scene" aria-hidden="true">
+          <div class="hero-ambient"></div>
+          <img class="hero-portrait" src="./assets/senyu-forest.jpg" width="1440" height="1918" alt="" fetchpriority="high">
+          <div class="hero-shade"></div>
+        </div>
+        <div class="hero-content">
+          <p class="eyebrow hero-eyebrow"><span class="tiny-spark">✳</span> WELCOME TO MY LITTLE WORLD</p>
+          <h1 id="hero-title">认真生活，<br>偶尔<span class="hero-emphasis">发呆<svg viewBox="0 0 240 24" aria-hidden="true"><path d="M4 15C54 2 167 0 233 11M25 21c65-10 128-11 179-6"/></svg></span><span class="hero-period">。</span></h1>
+          <p class="hero-description">嗨，我是高森雨。<br>这里收藏一点小日常，还有突然冒出来的快乐。</p>
+          <div class="hero-actions">
+            <a class="button button-coral" href="#moments">翻翻我的日常 <svg aria-hidden="true"><use href="#icon-arrow"/></svg></a>
+            <a class="text-link hero-about" href="#about">认识一下我 <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="hero-bottom">
+          <button class="motion-toggle" type="button" aria-pressed="false" aria-label="暂停动态效果"><span class="motion-icon" aria-hidden="true"><i></i><i></i></span><span class="motion-label">让日子慢一点</span></button>
+          <span class="hero-footnote">A LITTLE LIFE, A LOT OF JOY.</span>
+          <a class="scroll-cue" href="#intro"><span>往下翻，有小美好</span><span class="scroll-track" aria-hidden="true"><i></i></span></a>
+        </div>
+      </section>
+
+      <section class="intro section-pad" id="intro" aria-labelledby="intro-title">
+        <div class="section-index reveal"><span>HELLO, STRANGER!</span><span>很高兴，你刚好路过。</span></div>
+        <div class="intro-body">
+          <svg class="intro-spark reveal" aria-hidden="true"><use href="#icon-spark"/></svg>
+          <h2 id="intro-title" class="reveal">生活没有标准答案，<br>那就<span class="coral-text">多收集一点喜欢。</span></h2>
+          <p class="intro-copy reveal">留一点时间给树影、晚风，<br>也给那些突然觉得<span class="quote">“哇，真好”</span>的瞬间。</p>
+          <div class="intro-signature reveal"><span class="hand-line" aria-hidden="true"></span>高森雨的小小生活存档</div>
+        </div>
+        <div class="intro-stamp reveal" aria-hidden="true"><span>不赶时间</span><svg><use href="#icon-flower"/></svg><small>JUST ENJOY THE LITTLE THINGS</small></div>
+      </section>
+
+      <div class="ticker" aria-hidden="true"><div class="ticker-track"><span>随手拍拍 <b>✳</b> 随便走走 <b>✳</b> 认真吃饭 <b>✳</b> 偶尔发呆 <b>✳</b> 快乐万岁 <b>✳</b> </span><span>随手拍拍 <b>✳</b> 随便走走 <b>✳</b> 认真吃饭 <b>✳</b> 偶尔发呆 <b>✳</b> 快乐万岁 <b>✳</b> </span></div></div>
+
+      <section class="moments section-pad" id="moments" aria-labelledby="moments-title">
+        <div class="section-heading reveal">
+          <div><p class="eyebrow">01 / LITTLE MOMENTS</p><h2 id="moments-title">生活的<span class="serif-accent">小切片<svg viewBox="0 0 260 20" aria-hidden="true"><path d="M3 13c81-11 176-12 251-4"/></svg></span></h2></div>
+          <p class="section-aside">世界那么大，<br>先把眼前的小美好装进口袋。</p>
+        </div>
+        <div class="moment-grid">
+          <figure class="photo-card photo-main reveal">
+            <div class="photo-tape" aria-hidden="true"></div>
+            <button class="photo-open" type="button" data-photo="./assets/forest-dress-02.jpg" data-album="forest" data-caption="钻进绿色里，给自己放个小假。" aria-label="放大查看林间照片">
+              <img src="./assets/forest-dress-02.jpg" width="1152" height="2048" alt="高森雨穿着浅绿色裙子，站在阳光与树影间微笑" loading="lazy">
+              <span class="photo-zoom" aria-hidden="true">放大这一刻 <span>↗</span></span>
+            </button>
+            <figcaption><span>林间 · 一点阳光，一点好心情</span><span class="photo-number">NO. 001</span></figcaption>
+          </figure>
+          <div class="moment-story">
+            <div class="story-copy reveal">
+              <span class="mini-label"><i></i> 今日份的小美好</span>
+              <h3>钻进绿色里，<br>给自己放个小假。</h3>
+              <p>树影晃呀晃，阳光漏下来。<br>先把烦恼放一边，<br>这一刻，只负责和好心情待在一起。</p>
+              <span class="story-tag"># 把自己还给大自然</span>
+            </div>
+            <figure class="photo-detail reveal">
+              <button class="photo-open detail-open" type="button" data-photo="./assets/forest-dress-01.jpg" data-album="forest" data-caption="树影是今天的天然滤镜。" aria-label="查看另一张林间写真">
+                <img src="./assets/forest-dress-01.jpg" width="1152" height="2048" alt="高森雨在古树下，穿着浅绿色裙子与白色蕾丝头饰" loading="lazy">
+                <span class="detail-arrow" aria-hidden="true">↗</span>
+              </button>
+              <figcaption><span class="caption-star" aria-hidden="true">✳</span> 树影是今天的天然滤镜。</figcaption>
+            </figure>
+            <p class="album-postscript reveal">相册慢慢加厚，故事慢慢讲。<span aria-hidden="true">〰</span></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="album section-pad" id="album" aria-labelledby="album-title">
+        <div class="section-heading reveal">
+          <div><p class="eyebrow">02 / ALL THE SIDES OF ME</p><h2 id="album-title">我的快乐，<span class="serif-accent">不止一面<svg viewBox="0 0 260 20" aria-hidden="true"><path d="M3 13c81-11 176-12 251-4"/></svg></span></h2></div>
+          <p class="section-aside">是镜头里的我，<br>也是认真玩耍的我。</p>
+        </div>
+        <div class="album-toolbar reveal">
+          <div class="album-filters" role="group" aria-label="筛选生活记录">
+            <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">全部小快乐</button>
+            <button class="filter-button" type="button" data-filter="outside" aria-pressed="false">出门走走</button>
+            <button class="filter-button" type="button" data-filter="daily" aria-pressed="false">日常碎片</button>
+            <button class="filter-button" type="button" data-filter="birthday" aria-pressed="false">生日快乐</button>
+            <button class="filter-button" type="button" data-filter="cosplay" aria-pressed="false">换个次元</button>
+            <button class="filter-button" type="button" data-filter="game" aria-pressed="false">游戏时间</button>
+          </div>
+          <span class="album-count" aria-live="polite">06 段生活</span>
+        </div>
+        <div class="album-grid">
+          <article class="album-card album-card--birthday reveal" data-category="birthday" data-drift="1">
+            <div class="birthday-pair">
+              <button class="photo-open" type="button" data-photo="./assets/birthday-01.jpg" data-album="birthday" data-caption="19 岁，新一岁的祝福我先接了！" aria-label="查看生日照片第一张">
+                <img src="./assets/birthday-01.jpg" width="1206" height="1202" alt="生日拼贴：戴着皇冠的高森雨捧着蛋糕，旁边点缀粉色花朵与蕾丝" loading="lazy">
+                <span class="album-zoom" aria-hidden="true">↗</span>
+              </button>
+              <button class="photo-open" type="button" data-photo="./assets/birthday-02.jpg" data-album="birthday" data-caption="2026.08.06 · 19 岁的快乐，郑重收藏。" aria-label="查看生日照片第二张">
+                <img src="./assets/birthday-02.jpg" width="1200" height="1212" alt="生日拼贴：高森雨穿着浅色礼服，坐在粉色花束与花朵环绕的相框中" loading="lazy">
+                <span class="album-zoom" aria-hidden="true">↗</span>
+              </button>
+              <span class="birthday-sticker" aria-hidden="true">19<br><small>HELLO, NEW ME!</small></span>
+            </div>
+            <div class="album-caption"><p class="album-meta"><span>HAPPY BIRTHDAY</span><time datetime="2026-08-06">2026.08.06</time></p><h3>19 岁的快乐，郑重收藏。</h3><p>新一岁的祝福我先接了！谢谢大家！<span class="caption-heart" aria-hidden="true">♡</span></p></div>
+          </article>
+
+          <article class="album-card reveal" data-category="outside" data-drift="-1">
+            <button class="photo-open album-cover" type="button" data-photo="./assets/benshan-swing.jpg" data-album="outside" data-caption="05.04 · 湖州 · 弁山拾点伴。去山里，晃掉一点烦恼。" aria-label="查看弁山出游照片">
+              <img src="./assets/benshan-swing.jpg" width="1440" height="1920" alt="高森雨穿着白色上衣坐在树林里的秋千边" loading="lazy">
+              <span class="album-image-label">OUT OF OFFICE <span aria-hidden="true">↗</span></span>
+            </button>
+            <div class="album-caption"><p class="album-meta"><span>出门走走</span><span>05.04 · 湖州 · 弁山拾点伴</span></p><h3>去山里，晃掉一点烦恼。</h3><p>树是绿的，风是软的，今天不想赶路。</p></div>
+          </article>
+
+          <article class="album-card reveal" data-category="daily" data-drift="1">
+            <button class="photo-open album-cover" type="button" data-photo="./assets/sticker-day.jpg" data-album="stickers" data-caption="今日含闪量超标！把快乐贴在脸上。" aria-label="查看贴纸自拍">
+              <img src="./assets/sticker-day.jpg" width="1920" height="2560" alt="高森雨脸上贴着彩色爱心、水钻和卡通贴纸的近距离自拍" loading="lazy">
+              <span class="album-image-label">SHINE A LITTLE <span aria-hidden="true">↗</span></span>
+            </button>
+            <div class="album-caption"><p class="album-meta"><span>日常碎片</span><span>今日份可爱</span></p><h3>今日含闪量，超标了。</h3><p>快乐嘛，当然要明晃晃地贴在脸上。</p></div>
+          </article>
+
+          <article class="album-card reveal" data-category="daily" data-drift="-1">
+            <button class="photo-open album-cover" type="button" data-photo="./assets/dinner.jpg" data-album="dinner" data-caption="好好吃饭，也是今天的重要安排。" aria-label="查看聚餐照片">
+              <img src="./assets/dinner.jpg" width="1440" height="1920" alt="聚餐餐桌上的一锅美食、炒饭和草莓薄荷饮品" loading="lazy">
+              <span class="album-image-label">GOOD FOOD, GOOD MOOD <span aria-hidden="true">↗</span></span>
+            </button>
+            <div class="album-caption"><p class="album-meta"><span>日常碎片</span><span>快乐补给站</span></p><h3>先吃饭，快乐等会儿再说。</h3><p>人间烟火气，负责给好心情续个杯。</p></div>
+          </article>
+
+          <article class="album-card reveal" data-category="cosplay" data-drift="1">
+            <div class="cosplay-pair">
+              <button class="photo-open cosplay-first" type="button" data-photo="./assets/cosplay-01.jpg" data-album="cosplay" data-caption="换个次元，继续做喜欢的自己。" aria-label="查看 Cosplay 照片第一张">
+                <img src="./assets/cosplay-01.jpg" width="1280" height="1920" alt="高森雨戴着银白色卷发、黑色头饰与红玫瑰，穿着黑色蕾丝服装" loading="lazy">
+                <span class="album-zoom" aria-hidden="true">↗</span>
+              </button>
+              <button class="photo-open cosplay-second" type="button" data-photo="./assets/cosplay-02.jpg" data-album="cosplay" data-caption="镜头这边，也藏着另一个小宇宙。" aria-label="查看 Cosplay 照片第二张">
+                <img src="./assets/cosplay-02.jpg" width="1440" height="2160" alt="同一套银发黑裙红玫瑰造型，高森雨朝镜头伸出手" loading="lazy">
+                <span class="album-zoom" aria-hidden="true">↗</span>
+              </button>
+              <span class="cosplay-label" aria-hidden="true">ANOTHER<br>LITTLE UNIVERSE</span>
+            </div>
+            <div class="album-caption"><p class="album-meta"><span>COSPLAY DIARY</span><span>换个次元</span></p><h3>另一个次元，也很喜欢。</h3><p>换上喜欢的造型，让想象力出来透透气。</p></div>
+          </article>
+
+          <article class="album-card album-card--video reveal" data-category="game">
+            <div class="game-screen">
+              <video class="game-video" id="game-video" controls playsinline preload="metadata" poster="./assets/game-poster.jpg" width="1080" height="720" aria-label="我的神之八秒，游戏高光片段"><source src="./assets/game-eight-seconds.mp4" type="video/mp4">你的浏览器暂时无法播放视频，可以<a href="./assets/game-eight-seconds.mp4">打开游戏片段</a>查看。</video>
+              <button class="game-play" type="button" aria-controls="game-video" aria-label="播放我的神之八秒"><span class="game-play-inner"><span class="game-play-icon" aria-hidden="true">▶</span><span class="game-play-label">播放这 8 秒</span></span></button>
+              <p class="game-status" id="game-status" role="status" hidden></p>
+            </div>
+            <div class="game-copy"><p class="eyebrow"><span class="game-dot" aria-hidden="true"></span> PRESS PLAY / GAME TIME</p><span class="game-duration">00:08<span>小小高光，大大开心</span></span><h3>所有人来欣赏<br>我的<span>神之八秒。</span></h3><p>一次性三个！<br>这波，值得单独存个档。</p><span class="game-postscript">按下播放，快乐加一。 <span aria-hidden="true">↙</span></span><a class="game-open" href="./assets/game-eight-seconds.mp4" target="_blank" rel="noopener">单独打开视频 <span aria-hidden="true">↗</span></a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="notes section-pad" id="notes" aria-labelledby="notes-title">
+        <div class="notes-intro reveal">
+          <p class="eyebrow">03 / DEAR DIARY</p>
+          <h2 id="notes-title">想到哪儿，<br>就写到<span class="serif-accent">哪儿。</span></h2>
+          <p>一些没那么了不起、<br>但很想留住的小念头。</p>
+          <div class="notes-doodle" aria-hidden="true"><svg viewBox="0 0 160 100"><path d="M6 61c42-55 120-58 128-24 9 38-91 62-90 16 0-29 78-19 97 16m-18-2 20 5-3-20"/></svg><span>随便翻翻 ↓</span></div>
+        </div>
+        <div class="note-list">
+          <details class="note reveal" open>
+            <summary><span class="note-index">01</span><span class="note-title">给普通的一天，<br class="mobile-break">加一点“我喜欢”<small>生活灵感 · 随手记</small></span><span class="note-plus" aria-hidden="true"></span></summary>
+            <div class="note-content"><p>日子不用每一页都惊天动地。路边开着的小花，恰好吹来的风，一首刚好听到的歌，都可以是今天的高光时刻。</p><p>把“今天也就这样吧”，换成“今天也有一点喜欢”。嗯，好像就不一样了。</p></div>
+          </details>
+          <details class="note reveal">
+            <summary><span class="note-index">02</span><span class="note-title">没有安排，<br class="mobile-break">也是很好的安排<small>放空一下 · 小小心情</small></span><span class="note-plus" aria-hidden="true"></span></summary>
+            <div class="note-content"><p>不用每个周末都排得满满当当。偶尔不看时间，走一条没走过的小路，或者只是坐着，看一会儿云。</p><p>允许自己没有目的地。发呆的时间，也有在好好生长。</p></div>
+          </details>
+          <details class="note reveal">
+            <summary><span class="note-index">03</span><span class="note-title">快乐可以是<br class="mobile-break">一件很小的事<small>快乐收集 · 生活备忘</small></span><span class="note-plus" aria-hidden="true"></span></summary>
+            <div class="note-content"><p>等一个“大大的好消息”太久了，不如先为小事开心。吃到喜欢的味道、拍到满意的照片、好好睡一觉，都值得偷偷给自己鼓个掌。</p><p>快乐这件事，可以从“现在这样也挺好”开始。</p></div>
+          </details>
+          <p class="notes-footnote reveal">没有大道理，只有一点生活的回声。 <span aria-hidden="true">↳</span></p>
+        </div>
+      </section>
+
+      <section class="about section-pad" id="about" aria-labelledby="about-title">
+        <div class="about-top reveal"><p class="eyebrow">04 / THE PERSON BEHIND THE PAGES</p><span class="mini-label"><i></i> 生活记录中</span></div>
+        <div class="about-grid">
+          <div class="about-name reveal"><p>Hi, I'm</p><h2 id="about-title">高森雨<span>。</span></h2><span class="about-pronunciation">GAO · SEN · YU</span></div>
+          <div class="about-copy reveal"><p>把这里当作一个小小的生活收纳盒。</p><p>装照片，装心情，<br>也装偶尔冒出来的奇思妙想。</p><p>很高兴，你刚好路过。<br>希望你离开时，也带走一点好心情。</p><div class="about-tags"><span>日常收藏家</span><span>快乐观察员</span><span>偶尔发呆选手</span></div></div>
+        </div>
+        <div class="about-bottom reveal"><svg aria-hidden="true"><use href="#icon-flower"/></svg><span>不必每一天都闪闪发光，<br>有趣一点，就很好。</span><a href="#album" class="text-link">再翻翻相册 <span aria-hidden="true">↗</span></a></div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-pad">
+      <div class="footer-main"><p class="reveal">今天就逛到这儿，<br><span>下次再见呀。</span><svg aria-hidden="true"><use href="#icon-spark"/></svg></p><a class="back-top" href="#home" aria-label="回到顶部"><svg aria-hidden="true"><use href="#icon-arrow"/></svg><span>回到上面</span></a></div>
+      <div class="footer-meta"><span>© <span id="copyright-year">2026</span> 高森雨</span><span>一些小日常，一点小快乐。</span><span>MADE OF LITTLE MOMENTS <span class="footer-dot">●</span></span></div>
+    </footer>
+
+    <aside class="afterword" aria-labelledby="secret-title">
+      <div class="afterword-gap" aria-hidden="true"><span>· · ·</span></div>
+      <div class="secret-note reveal">
+        <span class="secret-ps" aria-hidden="true">P.S. <span>♡</span></span>
+        <p class="secret-leadin">对了，</p>
+        <h2 id="secret-title">我有一个<br class="secret-break"><span class="secret-crush">爱而不得</span>的男神，</h2>
+        <p class="secret-laugh">哈哈哈</p>
+        <p class="secret-footnote">好啦，这次真的说完了。</p>
+      </div>
+      <a class="secret-back text-link" href="#home">这次真的回到上面 <span aria-hidden="true">↗</span></a>
+    </aside>
+
+    <dialog class="photo-dialog" aria-labelledby="dialog-caption">
+      <button class="dialog-close" type="button" aria-label="关闭照片">×</button>
+      <button class="dialog-prev" type="button" aria-label="上一张照片"><svg aria-hidden="true"><use href="#icon-arrow"/></svg></button>
+      <div class="dialog-photo-wrap"><img class="dialog-photo" src="./assets/senyu-forest.jpg" alt="高森雨在阳光下的树林里"></div>
+      <div class="dialog-caption-bar"><p id="dialog-caption">钻进绿色里，给自己放个小假。</p><span class="dialog-counter" aria-live="polite">1 / 2</span></div>
+      <button class="dialog-next" type="button" aria-label="下一张照片"><svg aria-hidden="true"><use href="#icon-arrow"/></svg></button>
+    </dialog>
+  </body>
+</html>
